@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Biblioteca Escolar Moçambique</title>
+    <meta name="description" content="Biblioteca Escolar Moçambique - materiais escolares, exames, livros e conteúdos educativos.">
+
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="Biblioteca Escolar Moçambique">
+    <meta property="og:description" content="Encontre materiais para estudar, preparar testes e melhorar os seus conhecimentos.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_MZ">
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<a class="skip-link" href="#main">Saltar para o conteúdo</a>
+
+<header>
+    <h1>📚 Biblioteca Escolar Moçambique</h1>
+    <p>Conhecimento ao alcance de todos 🇲🇿</p>
+</header>
+
+<nav aria-label="Menu principal">
+    <a href="#inicio">Início</a>
+    <a href="#materiais">Materiais</a>
+    <a href="#sobre">Sobre</a>
+</nav>
+
+<main id="main">
+
+    <section id="inicio" class="hero">
+        <h2>Bem-vindo à Biblioteca Escolar</h2>
+        <p>
+            Encontre materiais para estudar, preparar testes
+            e melhorar os seus conhecimentos.
+        </p>
+
+        <form id="search-form" role="search" aria-label="Pesquisar materiais">
+            <label for="pesquisa" class="visually-hidden">Pesquisar materiais</label>
+            <input
+                type="search"
+                id="pesquisa"
+                name="pesquisa"
+                placeholder="🔎 Pesquisar material..."
+                aria-label="Pesquisar materiais"
+            >
+        </form>
+    </section>
+
+    <section id="materiais" aria-labelledby="materiais-title">
+
+        <h2 id="materiais-title">📖 Materiais de estudo</h2>
+
+        <div class="cards" id="cards">
+
+            <article class="card" data-title="Matemática" tabindex="0">
+                <h3>📐 Matemática</h3>
+                <p>Exercícios, resumos e exames.</p>
+                <button type="button" class="view-btn" data-subject="Matemática">Ver materiais</button>
+            </article>
+
+            <article class="card" data-title="Biologia" tabindex="0">
+                <h3>🧬 Biologia</h3>
+                <p>Resumos, exercícios e conteúdos.</p>
+                <button type="button" class="view-btn" data-subject="Biologia">Ver materiais</button>
+            </article>
+
+            <article class="card" data-title="Química" tabindex="0">
+                <h3>⚗️ Química</h3>
+                <p>Fichas, exercícios e preparação.</p>
+                <button type="button" class="view-btn" data-subject="Química">Ver materiais</button>
+            </article>
+
+            <article class="card" data-title="Física" tabindex="0">
+                <h3>⚛️ Física</h3>
+                <p>Matéria, exercícios e exames.</p>
+                <button type="button" class="view-btn" data-subject="Física">Ver materiais</button>
+            </article>
+
+            <article class="card" data-title="Português" tabindex="0">
+                <h3>📖 Português</h3>
+                <p>Gramática, literatura e exercícios.</p>
+                <button type="button" class="view-btn" data-subject="Português">Ver materiais</button>
+            </article>
+
+            <article class="card" data-title="Inglês" tabindex="0">
+                <h3>🇬🇧 Inglês</h3>
+                <p>Vocabulário, gramática e exercícios.</p>
+                <button type="button" class="view-btn" data-subject="Inglês">Ver materiais</button>
+            </article>
+
+        </div>
+
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre a Biblioteca</h2>
+        <p>
+            A Biblioteca Escolar Moçambique é um projeto educativo
+            destinado a facilitar o acesso dos estudantes a materiais
+            de estudo.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Biblioteca Escolar Moçambique</p>
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
