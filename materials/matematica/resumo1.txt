@@ -1,0 +1,3 @@
+Resumo — Álgebra
+
+Operações com polinómios, factorizações e resolução de equações simples.
